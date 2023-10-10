@@ -30,4 +30,8 @@ public class Mediatheque {
 		throw new UnsupportedOperationException("Not supported yet."); 
 	}
 
+	public List<Item> liste(){
+		return items;
+	}
+
 }
